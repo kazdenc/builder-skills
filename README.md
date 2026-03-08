@@ -89,44 +89,31 @@ The `design-foundations` skill provides a structured framework for thinking abou
 
 ```
 .claude/skills/
-  frontend-design/          # Core design system
-    SKILL.md
-    reference/
-      typography.md
-      color-and-contrast.md
-      spatial-design.md
-      motion-design.md
-      interaction-design.md
-      responsive-design.md
-      ux-writing.md
-  teach-design/             # Setup
-  audit/                    # Review
-  critique/
-  normalize/                # Refine
-  polish/
-  distill/
-  clarify/
-  extract/
-  bolder/                   # Adjust
-  quieter/
-  colorize/
-  animate/
-  delight/
-  optimize/                 # Harden
-  harden/
-  adapt/
-  onboard/
-  design-foundations/          # Five planes framework
-    SKILL.md
-    reference/
-      strategy.md
-      scope.md
-      structure.md
-      skeleton.md
-      surface.md
-  vercel-react-best-practices/  # Development
-  web-design-guidelines/
-  agent-browser/                # Tools
+  design/
+    frontend-design/        # Core design system + 7 references
+    design-foundations/      # Five planes framework + 5 references
+    teach-design/           # Setup
+    audit/                  # Review
+    critique/
+    normalize/              # Refine
+    polish/
+    distill/
+    clarify/
+    extract/
+    bolder/                 # Adjust
+    quieter/
+    colorize/
+    animate/
+    delight/
+    optimize/               # Harden
+    harden/
+    adapt/
+    onboard/
+  dev/
+    vercel-react-best-practices/
+    web-design-guidelines/
+  tools/
+    agent-browser/
 ```
 
 ## Credits
