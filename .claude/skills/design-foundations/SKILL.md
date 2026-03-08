@@ -1,6 +1,6 @@
 ---
-name: ux-elements
-description: User experience framework based on the five planes model. Use this skill when designing or evaluating products end-to-end — from strategy through surface. Provides structured thinking for UX decisions at every level of abstraction.
+name: design-foundations
+description: Product design framework based on the five planes model. Use this skill when designing or evaluating products end-to-end — from strategy through surface. Provides structured thinking for design decisions at every level of abstraction.
 ---
 
 # The Five Planes of User Experience

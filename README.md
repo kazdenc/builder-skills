@@ -60,9 +60,9 @@ Slash commands for targeted design work. Most accept an optional argument to sco
 | `/adapt` | Adapt for different devices and contexts |
 | `/onboard` | Design onboarding flows and empty states |
 
-### UX Framework
+### Design Foundations
 
-The `ux-elements` skill provides a structured framework for thinking about user experience across five planes, from abstract strategy to concrete surface design. Includes 5 reference files:
+The `design-foundations` skill provides a structured framework for thinking about product design across five planes, from abstract strategy to concrete surface design. Includes 5 reference files:
 
 | Reference | Covers |
 |-----------|--------|
@@ -116,7 +116,7 @@ The `ux-elements` skill provides a structured framework for thinking about user 
   harden/
   adapt/
   onboard/
-  ux-elements/                # UX framework
+  design-foundations/          # Five planes framework
     SKILL.md
     reference/
       strategy.md
