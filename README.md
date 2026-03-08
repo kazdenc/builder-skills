@@ -60,6 +60,18 @@ Slash commands for targeted design work. Most accept an optional argument to sco
 | `/adapt` | Adapt for different devices and contexts |
 | `/onboard` | Design onboarding flows and empty states |
 
+### UX Framework
+
+The `ux-elements` skill provides a structured framework for thinking about user experience across five planes, from abstract strategy to concrete surface design. Includes 5 reference files:
+
+| Reference | Covers |
+|-----------|--------|
+| strategy | Product objectives, user needs, personas, success metrics |
+| scope | Functional specs, content requirements, prioritization |
+| structure | Interaction design, information architecture, conceptual models |
+| skeleton | Interface design, navigation design, wireframes |
+| surface | Sensory design, color, typography, contrast, consistency |
+
 ### Development
 
 | Skill | Description |
@@ -104,6 +116,14 @@ Slash commands for targeted design work. Most accept an optional argument to sco
   harden/
   adapt/
   onboard/
+  ux-elements/                # UX framework
+    SKILL.md
+    reference/
+      strategy.md
+      scope.md
+      structure.md
+      skeleton.md
+      surface.md
   vercel-react-best-practices/  # Development
   web-design-guidelines/
   agent-browser/                # Tools
