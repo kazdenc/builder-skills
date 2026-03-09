@@ -4,7 +4,7 @@ description: Review UI code for Web Interface Guidelines compliance. Use when as
 metadata:
   author: vercel
   version: "1.0.0"
-  argument-hint: <file-or-pattern>
+  argument-hint: file-or-pattern
 ---
 
 # Web Interface Guidelines
