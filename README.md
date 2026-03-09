@@ -4,16 +4,30 @@
 
 ## Setup
 
-Copy `.claude/skills/` into any project:
+**Install everything** — copy all skills into any project:
 
 ```bash
 cp -r .claude/skills/ your-project/.claude/skills/
 ```
 
-Or install globally so skills are available everywhere:
+**Install globally** — available in every project:
 
 ```bash
 cp -r .claude/skills/* ~/.claude/skills/
+```
+
+**Install selectively** — pick only the categories you need (recommended if you have many skills already, to avoid context bloat):
+
+```bash
+# Just design skills
+cp -r .claude/skills/design/ your-project/.claude/skills/design/
+
+# Just product skills
+cp -r .claude/skills/product/ your-project/.claude/skills/product/
+
+# Mix and match
+cp -r .claude/skills/dev/setup/ your-project/.claude/skills/dev/setup/
+cp -r .claude/skills/dev/review/ your-project/.claude/skills/dev/review/
 ```
 
 ## Skills
