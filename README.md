@@ -55,9 +55,31 @@ Slash commands for targeted design work. Most accept an optional argument to sco
 
 ### Product
 
+#### Frameworks
+
+Knowledge skills that provide product strategy and decision-making context.
+
 | Skill | References | Covers |
 |-------|-----------|--------|
 | `jtbd` | 5 | Jobs to Be Done — core concepts, discovering/defining/designing/delivering value |
+| `lean-canvas` | — | One-page business model — problem, solution, channels, metrics, unfair advantage |
+
+#### Commands
+
+Slash commands for product management work. Most accept an optional argument to scope the work (e.g. `/prd search-feature`, `/prioritize backlog`).
+
+| Group | Command | What it does |
+|-------|---------|-------------|
+| **Discover** | `/interview` | Generate interview scripts or analyze transcripts for insights |
+| | `/competitive` | Competitive analysis with feature comparison and positioning gaps |
+| **Define** | `/prd` | Write a product requirements document |
+| | `/stories` | Write job stories with acceptance criteria |
+| | `/spec` | Write a technical specification from requirements |
+| **Prioritize** | `/prioritize` | Score and rank features using RICE, opportunity scoring, or impact/effort |
+| | `/scope` | Cut scope to identify MVP and must-haves for a timeline |
+| **Launch** | `/gtm` | Go-to-market plan with positioning, messaging, and launch checklist |
+| | `/metrics` | Define success metrics, KPIs, and instrumentation plan |
+| | `/retro` | Run a structured retrospective with actionable outcomes |
 
 ### Development
 
@@ -102,7 +124,23 @@ Slash commands for targeted design work. Most accept an optional argument to sco
       adapt/
       onboard/
   product/
-    jtbd/                        # 5 reference files
+    frameworks/
+      jtbd/                      # 5 reference files
+      lean-canvas/
+    discover/
+      interview/
+      competitive/
+    define/
+      prd/
+      stories/
+      spec/
+    prioritize/
+      prioritize/
+      scope/
+    launch/
+      gtm/
+      metrics/
+      retro/
   dev/
     vercel-react-best-practices/
     web-design-guidelines/
