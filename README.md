@@ -1,6 +1,6 @@
 # builder-skills
 
-A curated collection of Claude Code skills for product strategy, frontend design, development, and browser automation.
+47 Claude Code skills for product management, frontend design, full-stack development, and browser automation. Organized by workflow — from discovery through deployment.
 
 ## Setup
 
