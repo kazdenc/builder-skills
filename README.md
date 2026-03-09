@@ -83,10 +83,35 @@ Slash commands for product management work. Most accept an optional argument to 
 
 ### Development
 
+#### Frameworks
+
+Knowledge skills that provide development best practices and conventions.
+
 | Skill | Covers |
 |-------|--------|
-| `vercel-react-best-practices` | React/Next.js performance optimization from Vercel Engineering |
+| `vercel-react-best-practices` | React/Next.js performance optimization from Vercel Engineering (58 rules) |
 | `web-design-guidelines` | Review UI code against Web Interface Guidelines |
+| `typescript-patterns` | Type design, generics, utility types, discriminated unions, error handling |
+| `api-design` | RESTful conventions, error formats, pagination, versioning, auth patterns |
+
+#### Commands
+
+Slash commands for development workflows. Most accept an optional argument to scope the work.
+
+| Group | Command | What it does |
+|-------|---------|-------------|
+| **Setup** | `/nextjs-init` | Scaffold Next.js with App Router, TypeScript, Tailwind, opinionated defaults |
+| | `/supabase-setup` | Initialize Supabase: schema, RLS policies, auth, storage, edge functions |
+| | `/vercel-deploy` | Deploy to Vercel: config, env vars, domains, preview deploys |
+| | `/db-schema` | Design a database schema from requirements (Postgres-first, Supabase-aware) |
+| | `/env-config` | Set up environment variables across local/staging/production with validation |
+| **Review** | `/code-review` | Structured code review: correctness, readability, performance, security |
+| | `/security-scan` | OWASP top 10 check: injection, XSS, auth issues, secrets exposure |
+| | `/deps-audit` | Audit dependencies: outdated, vulnerable, unused, bloated |
+| **Test** | `/test-plan` | Write test strategy with coverage targets and testing pyramid |
+| | `/test-write` | Generate tests for existing code (unit, integration, e2e) |
+| **Deploy** | `/deploy-check` | Pre-deployment checklist: migrations, env vars, rollback plan, smoke tests |
+| | `/monitor` | Set up monitoring: error tracking, alerts, dashboards, SLOs |
 
 ### Tools
 
@@ -142,8 +167,27 @@ Slash commands for product management work. Most accept an optional argument to 
       metrics/
       retro/
   dev/
-    vercel-react-best-practices/
-    web-design-guidelines/
+    frameworks/
+      vercel-react-best-practices/
+      web-design-guidelines/
+      typescript-patterns/
+      api-design/
+    setup/
+      nextjs-init/
+      supabase-setup/
+      vercel-deploy/
+      db-schema/
+      env-config/
+    review/
+      code-review/
+      security-scan/
+      deps-audit/
+    test/
+      test-plan/
+      test-write/
+    deploy/
+      deploy-check/
+      monitor/
   tools/
     agent-browser/
 ```
